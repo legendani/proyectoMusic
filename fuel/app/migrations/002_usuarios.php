@@ -16,7 +16,7 @@ class Usuarios
             'descripcion' => array('type' => 'varchar', 'constraint' => 100),
             'cumpleaños' => array('type' => 'varchar', 'constraint' => 100),
             'ubicacion' => array('type' => 'varchar', 'constraint' => 100),
-            'id_roles' => array('type' => 'id', 'constraint' => 5),
+            'id_roles' => array('type' => 'int', 'constraint' => 5),
         ),
 
         array('id'), false, 'InnoDB', 'utf8',
